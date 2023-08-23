@@ -190,7 +190,7 @@ MonoBehaviour:
   - {fileID: 2263181793565373403, guid: 3aab4a7bb225d5f4db41accd257f1fbc, type: 3}
   findAttack: 0
   isAttack: 0
-  rayLength: 5
+  rayLength: 3
   xposition: 3
   yposition: 3.5
   attackArea: {fileID: 8690310756517092291}
