@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9acb725140e98f0419c3d2053913da3c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -179,6 +179,7 @@ MonoBehaviour:
   speed: 8
   dodie: 0
   id: 0
+  isInAttackRange: 0
   hitColor: {r: 0, g: 0, b: 0, a: 0}
   hitDuration: 0.1
   spawnManager: {fileID: 0}
