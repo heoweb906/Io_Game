@@ -16,8 +16,6 @@ public class Floor : MonoBehaviour
             // Animator 컴포넌트 가져오기
             Animator animator = playerBehavior.GetComponent<Animator>();
             animator.SetBool("isJump",false);
-
-
         }
 
 
@@ -35,6 +33,9 @@ public class Floor : MonoBehaviour
         if (jumpMonster != null)
         {
             jumpMonster.scan = false;
+
+            Animator animator = jumpMonster.GetComponent<Animator>();
+            animator.SetBool("isJump", false);
         }
 
     }
