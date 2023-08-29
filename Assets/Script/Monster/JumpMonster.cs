@@ -67,7 +67,7 @@ public class JumpMonster : Monster
 
     private void ScanFrontHouse() // 전방에 플레이어, 혹은 하우스가 있는 확인하는 함수
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, 6f, LayerMask.GetMask("House"));
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, 5f, LayerMask.GetMask("House"));
 
         Debug.DrawRay(transform.position, Vector2.left * rayLength, Color.red); // Ray의 시각적인 표시를 위한 Debug.DrawRay 사용
 

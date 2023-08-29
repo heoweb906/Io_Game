@@ -177,7 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   touchdmg: 20
-  speed: 5
+  speed: 2
   dodie: 0
   id: 0
   isInAttackRange: 0
@@ -191,7 +191,7 @@ MonoBehaviour:
   findAttack: 0
   isAttack: 0
   rayLength: 9
-  bulletSpeed: 15
+  bulletSpeed: 10
   flyingBullet: {fileID: 2617243179527578592, guid: 56b9eba9ae214ac4988f3c014ac3daf1, type: 3}
   flyingTransform: {fileID: 774524392577505906}
   step: {fileID: 5463684680784841531}

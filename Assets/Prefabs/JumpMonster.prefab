@@ -236,7 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   touchdmg: 20
-  speed: 8
+  speed: 6
   dodie: 0
   id: 0
   isInAttackRange: 0
@@ -251,9 +251,9 @@ MonoBehaviour:
   isAttack: 0
   isJump: 0
   scan: 0
-  rayLength: 4
+  rayLength: 3.5
   attackArea: {fileID: 8838184860527422589}
-  jumpForce: 12
+  jumpForce: 14
   jumpDelay: 1
 --- !u!95 &851101589155088553
 Animator:
