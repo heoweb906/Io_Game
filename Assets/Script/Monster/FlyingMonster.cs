@@ -146,7 +146,7 @@ public class FlyingMonster : Monster
         rigidbody.simulated = false;
 
         yield return new WaitForSeconds(1f);  // 죽음 함수 작동 후, 오브젝트가 삭제되는 시간, 애니메이션 출력 시간이랑 맞춰야 함
-        if (Random.Range(0f, 100f) <= 30f)
+        if (Random.Range(0f, 100f) <= 25f)
         {
             int randomIndex = Random.Range(0, gem.Length); // 랜덤한 인덱스 선택
             GameObject newObj = Instantiate(gem[randomIndex], transform.position, Quaternion.identity);

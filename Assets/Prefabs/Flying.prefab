@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dd3426e59f0a57e42acc46c1a5992ff3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -177,9 +177,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   touchdmg: 20
-  speed: 5
+  speed: 2
   dodie: 0
   id: 0
+  isInAttackRange: 0
   hitColor: {r: 0, g: 0, b: 0, a: 0}
   hitDuration: 0.1
   spawnManager: {fileID: 0}
@@ -190,7 +191,7 @@ MonoBehaviour:
   findAttack: 0
   isAttack: 0
   rayLength: 9
-  bulletSpeed: 15
+  bulletSpeed: 10
   flyingBullet: {fileID: 2617243179527578592, guid: 56b9eba9ae214ac4988f3c014ac3daf1, type: 3}
   flyingTransform: {fileID: 774524392577505906}
   step: {fileID: 5463684680784841531}
